@@ -45,21 +45,12 @@ Visit the [home page](https://better-xcloud.github.io) to know how to install Be
 ## References
 - https://github.com/redphx/better-xcloud
 - https://learn.microsoft.com/en-us/gaming/gdk/docs/services/fundamentals/portal-config/live-service-config-ids-mp
-
 - https://learn.microsoft.com/en-us/windows/uwp/launch-resume/how-to-create-and-consume-an-app-service
-
 - https://learn.microsoft.com/en-us/gaming/gdk/docs/reference/live/rest/atoc-xboxlivews-reference Xbox services RESTful reference
-
 - https://learn.microsoft.com/en-us/gaming/gdk/docs/services/develop/best-practices/live-best-practices-calling-xbl 
-
 - https://news.xbox.com/en-us/idatxbox/ 
-
 - https://developer.microsoft.com/en-US/games/publish 
-
-- https://www.nuget.org/packages/Microsoft.Xbox.Live.SDK.WinRT.UWP/2018.6.20181010.2 The Microsoft Xbox Live Service API (XSAPI) enables game developers to access Xbox Live. To get access to the Xbox Live service, you can join the Xbox Live Creators Program at https://aka.ms/xblcp, or apply to the ID@Xbox program at http://www.xbox.com/en-us/Developers/id
-
 - https://github.com/microsoft/xbox-live-api
-
 - https://github.com/microsoft/xbox-live-samples
 
 ## ..
