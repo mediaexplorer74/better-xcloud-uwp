@@ -1,0 +1,22 @@
+<Page
+    x:Class="BetterXCloudUWP.Views.StreamPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BetterXCloudUWP.Views">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="16">
+            <TextBlock Text="Потоковое видео Xbox Cloud" FontSize="24"/>
+            <TextBox x:Name="StreamUrlBox" Width="400" PlaceholderText="Вставьте ссылку на поток (m3u8)"/>
+            <Button Content="Воспроизвести (MediaElement)" Click="PlayMediaElement_Click" Width="250"/>
+            <Button Content="Воспроизвести (WebView2)" Click="PlayWebView2_Click" Width="250"/>
+            <MediaElement x:Name="StreamMediaElement" Width="800" Height="450" AutoPlay="False" Visibility="Collapsed"
+                         CurrentStateChanged="StreamMediaElement_CurrentStateChanged"
+                         MediaFailed="StreamMediaElement_MediaFailed"
+                         MediaOpened="StreamMediaElement_MediaOpened"/>
+            <WebView x:Name="StreamWebView" Width="800" Height="450" Visibility="Collapsed"/>
+            <ProgressBar x:Name="LoadingProgressBar" Width="400" Height="8" IsIndeterminate="True" Visibility="Collapsed"/>
+            <TextBlock x:Name="StatusTextBlock" Foreground="Gray" FontSize="16"/>
+            <TextBlock x:Name="ErrorTextBlock" Foreground="Red" FontSize="16"/>
+        </StackPanel>
+    </Grid>
+</Page>

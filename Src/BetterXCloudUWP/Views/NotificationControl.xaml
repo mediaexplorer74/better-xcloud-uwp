@@ -1,0 +1,9 @@
+<UserControl
+    x:Class="BetterXCloudUWP.Views.NotificationControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BetterXCloudUWP.Views">
+    <Border Background="#FF333333" CornerRadius="8" Padding="12" Margin="8" HorizontalAlignment="Center" VerticalAlignment="Top">
+        <TextBlock x:Name="NotificationText" Foreground="White" FontSize="18"/>
+    </Border>
+</UserControl>

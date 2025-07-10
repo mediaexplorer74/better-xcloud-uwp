@@ -1,0 +1,11 @@
+<Page
+    x:Class="BetterXCloudUWP.Views.XboxAuthPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BetterXCloudUWP.Views">
+    <StackPanel Margin="20" Spacing="16">
+        <TextBlock Text="Вход в Xbox Live" FontSize="24"/>
+        <Button x:Name="SignInButton" Content="Войти в Xbox Live" Click="SignInButton_Click" Width="220"/>
+        <TextBlock x:Name="StatusText" FontSize="16" Foreground="Green"/>
+    </StackPanel>
+</Page>

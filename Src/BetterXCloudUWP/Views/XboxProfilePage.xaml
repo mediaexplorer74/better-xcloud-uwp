@@ -1,0 +1,14 @@
+<Page
+    x:Class="BetterXCloudUWP.Views.XboxProfilePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BetterXCloudUWP.Views">
+    <StackPanel Margin="20" Spacing="16">
+        <TextBlock Text="Профиль Xbox Live" FontSize="24"/>
+        <TextBlock x:Name="GamerTagText" FontSize="20"/>
+        <Button Content="Показать список игр" Click="ShowGamesButton_Click" Width="180"/>
+        <Button Content="Показать ачивки" Click="ShowAchievementsButton_Click" Width="180"/>
+        <ListView x:Name="GamesList" Visibility="Collapsed"/>
+        <ListView x:Name="AchievementsList" Visibility="Collapsed"/>
+    </StackPanel>
+</Page>

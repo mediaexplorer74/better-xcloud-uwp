@@ -1,15 +1,8 @@
-<div align="center">
-    <img src="https://raw.githubusercontent.com/redphx/better-xcloud/refs/heads/typescript/resources/logos/better-xcloud.png" width="256"/>  
-    <h1>Better xCloud</h1>
-    <!-- Latest Version Badge -->
-    <a href="https://github.com/redphx/better-xcloud/releases"><img src="https://img.shields.io/github/v/release/redphx/better-xcloud?label=latest" alt="Latest version" /></a>
-    <!-- Total Downloads Badge -->
-    <a href="https://github.com/redphx/better-xcloud/releases"><img src="https://img.shields.io/github/downloads/redphx/better-xcloud/total?color=%23e15f2c" alt="Total downloads" /></a>
-    <!-- Total Stars Badge -->
-    <a href="https://github.com/redphx/better-xcloud/stargazers"><img src="https://img.shields.io/github/stars/redphx/better-xcloud?color=%23cca400" alt="Total stars" /></a>
-</div>
+# better-xcloud-uwp - uwp branch
 
-### Improve Xbox Cloud Gaming (xCloud) experience on [xbox.com/play](https://www.xbox.com/play). It also allows you to use Remote Play on the xCloud website.  
+![](Images/logo.png)
+
+Improve Xbox Cloud Gaming (xCloud) experience on [xbox.com/play](https://www.xbox.com/play). It also allows you to use Remote Play on the xCloud website.  Prototype / Draft / Not ready. This is only my fantazy about better-xcloud UWP edition based on "better-xcloud TypeScript" logics :) Dirty and fast work with help of WindSurf AI IDE. 
 
 > [!IMPORTANT]  
 > I only accept pull requests for:
@@ -17,32 +10,26 @@
 > - Bug fixes
 
 **Supported platforms:**  
-- Windows
-- macOS
-- Linux, SteamOS (including Steam Deck)
-- Android, Android TV (including Meta Quest VR Headsets): [redphx/better-xcloud-android](https://github.com/redphx/better-xcloud-android)
-- iOS, iPadOS
+- Windows 10/11 (17xxx)
 
+## Screenshots
+
+![](Images/sshot01.png)
+
+
+## Description ( original , not mine )
 This script makes me spend more time with xCloud, and I hope the same thing happens to you.  
 If you like this project please give it a 🌟. Thank you 🙏.
 
-## How to install
+### How to install
 Visit the [home page](https://better-xcloud.github.io) to know how to install Better xCloud on your device.
 
-## Full documentations
+### Full documentations
 - For the full details please visit: [**better-xcloud.github.io**](https://better-xcloud.github.io)  
 - [Demo video](https://youtu.be/hyp69Jrb2sQ)
 
 ⚠️ Please DO NOT report **Better xCloud**'s bugs on [/r/xcloud subreddit](https://reddit.com/r/xcloud/). Report bugs in [Issues](https://github.com/redphx/better-xcloud/issues) or [Telegram channel](https://t.me/betterxcloud) instead.
 
-## Donation
-If you think this project is useful and want to support future developments, please consider making a donate via [my Ko-fi page](https://ko-fi.com/redphx).  
-Or you can give this project a star, that's also helpful.  
-Thank you.  
-
-## Translation  
-Help translating **Better xCloud** to another languagues using [Crowdin](https://crowdin.com/project/better-xcloud).  
-Use [this post](https://github.com/redphx/better-xcloud/discussions/131) for discussion. 
 
 ## Acknowledgements  
 - The mouse controlling feature is heavily inspired by the "Mouse spinning" feature in [Yuzu emulator](https://github.com/yuzu-emu/yuzu-mainline)
@@ -53,3 +40,30 @@ Use [this post](https://github.com/redphx/better-xcloud/discussions/131) for dis
 ## Disclaimers  
 - Use it at your own risk.
 - This project is not affiliated with Xbox in any way. All Xbox logos/icons/trademarks are copyright of their respective owners.
+
+
+## References
+- https://github.com/redphx/better-xcloud
+- https://learn.microsoft.com/en-us/gaming/gdk/docs/services/fundamentals/portal-config/live-service-config-ids-mp
+
+- https://learn.microsoft.com/en-us/windows/uwp/launch-resume/how-to-create-and-consume-an-app-service
+
+- https://learn.microsoft.com/en-us/gaming/gdk/docs/reference/live/rest/atoc-xboxlivews-reference Xbox services RESTful reference
+
+- https://learn.microsoft.com/en-us/gaming/gdk/docs/services/develop/best-practices/live-best-practices-calling-xbl 
+
+- https://news.xbox.com/en-us/idatxbox/ 
+
+- https://developer.microsoft.com/en-US/games/publish 
+
+- https://www.nuget.org/packages/Microsoft.Xbox.Live.SDK.WinRT.UWP/2018.6.20181010.2 The Microsoft Xbox Live Service API (XSAPI) enables game developers to access Xbox Live. To get access to the Xbox Live service, you can join the Xbox Live Creators Program at https://aka.ms/xblcp, or apply to the ID@Xbox program at http://www.xbox.com/en-us/Developers/id
+
+- https://github.com/microsoft/xbox-live-api
+
+- https://github.com/microsoft/xbox-live-samples
+
+## ..
+- AS-IS. No support. Research theme only!
+
+## .
+[M][E] 2025 
